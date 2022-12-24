@@ -39,6 +39,7 @@
   </div>
     
   <div class="container-fluid">
+    {% for bl in docente %}
       <tbody>
         <div classs="container p-5">
             <div class="alert alert-success shadow rounded-3 p-4" id="bloques" role="alert" style="border-left:#155724 5px solid; border-radius: 0px">
@@ -52,6 +53,7 @@
                 </div>
             </div>
       </tbody>  
+      {% endfor %}
   </div>
 </div>
 </html>
