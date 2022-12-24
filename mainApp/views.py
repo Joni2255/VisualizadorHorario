@@ -1,7 +1,6 @@
 from django.shortcuts import render
 from mainApp.models import Bloques, Docente, Dias, Bloque_dias
 from mainApp.forms import formBloqueDias
-from django.db.models import Q
 
 def index(req):
     bloques = Bloques.objects.all()
