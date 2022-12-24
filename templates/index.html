@@ -39,17 +39,17 @@
   </div>
     
   <div class="container-fluid">
-    {% for bl in docente %}
+    {% for d in docente %}
       <tbody>
         <div classs="container p-5">
             <div class="alert alert-success shadow rounded-3 p-4" id="bloques" role="alert" style="border-left:#155724 5px solid; border-radius: 0px">
                 <div class="row">
                       <p style="font-size:18px" class="mb-0 font-weight-light">
-                      <b class="display-6">Dia: {{ bl.nombre_dia }}</b>
-                      <div class="display-6 fst-italic text-center">{{bl.asignaturas}}</div>
-                      <div class="fw-bold text-center">{{bl.nombre}}</div></p>
-                      <div class="float-start">Sala: {{bl.sala}}</div>
-                      <div class="float-end">Hora: {{bl.duracion_inicios}} - {{bl.duracion_terminos}}</div>
+                      <b class="display-6">Dia: {{ d.nombre_dia }}</b>
+                      <div class="display-6 fst-italic text-center">{{d.asignaturas}}</div>
+                      <div class="fw-bold text-center">{{d.nombre}}</div></p>
+                      <div class="float-start">Sala: {{d.sala}}</div>
+                      <div class="float-end">Hora: {{d.duracion_inicios}} - {{d.duracion_terminos}}</div>
                 </div>
             </div>
       </tbody>  
