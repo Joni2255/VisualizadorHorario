@@ -70,11 +70,11 @@ WSGI_APPLICATION = 'Horario.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'vhorariodocente',
-        'USER': 'vhorariodocente_user',
-        'PASSWORD': 'qVbuddHimf1q4RKEYmJugH54a8vbjPhW',
-        'HOST': 'dpg-ceh28gpa6gdoe9o88os0-a',
-        'PORT': '5432',
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': 'gipQOvXRbi4DxFpjrhHs',
+        'HOST': 'containers-us-west-173.railway.app',
+        'PORT': '8058',
     }
 }
 
